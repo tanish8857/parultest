@@ -37,9 +37,15 @@
       <script>broadstreet.loadNetworkJS(5997)</script>
       <link rel="stylesheet" href="css/style4.css">
       <link rel="stylesheet" href="css/about.css">
-      
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+
+<!-- OWL Carousel script -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
    </head>
-   <body class="path-frontpage page-node-type-homepage   d-flex flex-column h-100" style="font">
+   <body class="path-frontpage page-node-type-homepage   d-flex flex-column h-100" >
       <a href="#main-content" class="visually-hidden focusable skip-link">
       Skip to main content
       </a>
@@ -99,7 +105,7 @@
                      <div id="block-harvard-magazine-branding" class="block block-system block-system-branding-block">
                         <div class="navbar-brand d-flex align-items-center">
                            <a href="/" title="Home" rel="home" class="site-logo d-block navbar-brand__site-logo">
-                           <img src="images/Screenshot 2023-10-26 211705.png" alt="Home">
+                           <img src="images/Screenshot 2023-10-26 211705.png"  alt="Home">
                            </a>
                            <div class="site-slogan navbar-brand__site-slogan"><i>Your Journey Through the Innovation Odyssey</i></div>
                         </div>
@@ -578,10 +584,16 @@
                </div>
             </div>
          </div>
+         
          <a id="main-content" tabindex="-1"></a>
          <div class="container container-wide">
             <div class="region region-content-top">
                <div data-drupal-messages-fallback="" class="hidden"></div>
+            </div>
+            <div class="researchqoute" style="justify-content: center; text-align:center;">
+               <div class="heading" style="font-size:50px;"> 
+                  <b>Research</b>
+               </div>
             </div>
             <div class="row g-0">
                <div class="order-1 order-lg-2 col-12">
@@ -589,9 +601,10 @@
                      <div id="block-harvard-magazine-content" class="block block-system block-system-main-block">
                         <article role="article" class="node node--type-homepage node--view-mode-full">
                            <div class="node__content">
+                           
                               <!-- Images div for covering the background -->
                                <div class="layout layout--twocol-section layout--twocol-section--50-50 homepage__news_featured_section">
-                                 <img src="images/bg-3 2500x400.png" style="width: 2000px; height: 300px; margin:10px;" class="img-fluid" alt="Responsive image">
+                                 <img src="images/main bakcground image.jpeg" style="width: 2400px; height: 250px; margin:10px;" class="img-fluid" alt="Responsive image">
                                  <!-- <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                                    <div class="carousel-inner">
                                      <div class="carousel-item active">
@@ -724,7 +737,7 @@
 
 
                      <!-- Magazine section starts here -->
-                     <div class="homepage__the_magazine_section layout layout--onecol">
+                     <div class="homepage__the_magazine_section layout layout--onecol" style="margin-top: 100px;">
                      <div class="layout__region layout__region--content">
                      <div class="views-element-container block block-views block-views-blockhomepage-block-3">
                      <div class="issues-header">
@@ -762,10 +775,11 @@
                      <!-- Magazine section starts here -->
 
                      <!-- Articles sections starts here -->
+
                      <div class="homepage__the_magazine_section layout layout--onecol">
                      <div class="layout__region layout__region--content">
                      <div class="views-element-container block block-views block-views-blockhomepage-block-3">
-                     <div class="issues-header" style="margin-top: 80px;">
+                     <!-- <div class="issues-header" style="margin-top: 80px;">
                      <h2>The Articles</h2>
                      <a class="back-issues-link back-issues-link-top" href="/past-issues">See full list of Past Articles <i class="fas fa-arrow-right"></i></a>
                      </div>
@@ -791,9 +805,42 @@
                      <div class="view-homepage-issue-block-row current-issue-cover"><a href="https://www.harvardmagazine.com/2021/12-52">
                      <img src="images/ar-6.jpg" width="250" height="313" alt="" loading="lazy" class="img-fluid">
                      </a><h3 class="view-homepage-issue-block-row__title"><a href="https://www.harvardmagazine.com/2021/12-52">January<br>February 2023</a></h3></div>
-                     </div>
+                     </div> -->
                      <a class="back-issues-link back-issues-link-bottom" href="#">See full list of pack issues <i class="fas fa-arrow-right"></i></a>
-                     </div>
+
+
+                     <!-- The New owl carousel starts here -->
+                     <div class="home-demo" style="margin-top: 80px;">
+                        <h3>Carousel</h3>
+                        <div class="owl-carousel owl-theme">
+                          <div class="item">
+                             <img src="images/ar-1.webp" width="250" height="313" alt="" loading="lazy" class="img-fluid">
+                             <h5>Article 1</h5>
+                          </div>
+                          <div class="item">
+                           <img src="images/ar-2.jpg" width="250" height="313" alt="" loading="lazy" class="img-fluid">
+                            <h5>Article 2</h5>
+                          </div>
+                          <div class="item">
+                           <img src="images/ar-3.webp" width="250" height="313" alt="" loading="lazy" class="img-fluid">
+                          <h5>Article 3</h5>
+                          </div>
+                          <div class="item">
+                           <img src="images/ar-4.jpg" width="250" height="313" alt="" loading="lazy" class="img-fluid">
+                            <h5>Article 4</h5>
+                          </div>
+                          <div class="item">
+                           <img src="images/bg-8.jpg" width="250" height="313" alt="" loading="lazy" class="img-fluid">
+                         <h5>Article 5</h5>
+                          </div>
+                          <div class="item">
+                           <img src="images/ar-6.jpg" width="250" height="313" alt="" loading="lazy" class="img-fluid">
+                            <h5>Article 6</h5>
+                          </div>
+                          
+                        </div>
+                      </div>  
+                  </div>
                      </div>
                      </div>
                      </div>
@@ -1134,7 +1181,9 @@
                            </li>
                         </ul>
                      </nav>
+                     
                   </div>
+
                   <!-- <div class="region-footer__nav-group">
                      <nav role="navigation" aria-labelledby="block-footer-subcriptions-menu-menu" id="block-footer-subcriptions-menu" class="block block-menu navigation menu--footer-3">
                      <h5 id="block-footer-subcriptions-menu-menu">Subscriptions</h5>
@@ -1260,7 +1309,7 @@
                               </div>
                            </div>
                         </div>
-                        <div class="accordion-container accordion-container-subscriptions ">
+                        <!-- <div class="accordion-container accordion-container-subscriptions ">
                            <h2 class="accordion-title">
                               <div class="main-arrows">
                                  <i class="fas fa-caret-right"></i>
@@ -1283,8 +1332,8 @@
                                  </ul>
                               </div>
                            </div>
-                        </div>
-                        <div class="accordion-container accordion-container-newsletters ">
+                        </div> -->
+                        <!-- <div class="accordion-container accordion-container-newsletters ">
                            <h2 class="accordion-title">
                               <div class="main-arrows">
                                  <i class="fas fa-caret-right"></i>
@@ -1297,8 +1346,8 @@
                               <a href="#">NEWSLETTERS</a>
                            </h2>
                            <div class="accordion_menus-block-content"></div>
-                        </div>
-                        <div class="accordion-container accordion-container-advertise ">
+                        </div> -->
+                        <!-- <div class="accordion-container accordion-container-advertise ">
                            <h2 class="accordion-title">
                               <div class="main-arrows">
                                  <i class="fas fa-caret-right"></i>
@@ -1322,8 +1371,8 @@
                                  </ul>
                               </div>
                            </div>
-                        </div>
-                        <div class="accordion-container accordion-container-faq ">
+                        </div> -->
+                        <!-- <div class="accordion-container accordion-container-faq ">
                            <h2 class="accordion-title">
                               <div class="main-arrows">
                                  <i class="fas fa-caret-right"></i>
@@ -1343,8 +1392,11 @@
                               </div>
                            </div>
                         </div>
+                         -->
                      </div>
+                     
                   </div>
+                  
                   <div class="region-footer__nav-group">
                      <div class="views-element-container block block-views block-views-blockfooter-block-1" id="block-views-block-footer-current-issue">
                         <h5 class="fw-normal">Current issue</h5>
@@ -1354,7 +1406,7 @@
                                  <div class="views-row">
                                     <div class="views-field views-field-field-hero-image">
                                        <div class="field-content"> <a href="/2023/11" hreflang="und">
-                                          <img src="images/magazine md.jpeg" width="409" height="513" alt="" loading="lazy" class="img-fluid">
+                                          <img src="images/magazine md 2/okay-1.png" width="409" height="513" alt="" loading="lazy" class="img-fluid">
                                           </a>
                                        </div>
                                     </div>
@@ -1383,7 +1435,9 @@
                            </li>
                         </ul>
                      </nav>
+                     
                   </div>
+                  
                </div>
                <div class="region region-footer-bottom">
                   <div class="group-left">
@@ -1420,6 +1474,7 @@
                         </ul>
                      </nav>
                   </div>
+                  
                </div>
             </div>
          </div>
@@ -1430,6 +1485,7 @@
       <script src="js/page.js" async=""></script>
       <script src="js/js_OO14Ux5e7x9MfoOWKmFQCYMLKtf3q-WaE6X_IZUD-VE.js"></script>
       <script async="" src="js/page.js"></script>
+   
       <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"NRJS-0491eb7723095ec4081","applicationID":"1073685608","transactionName":"bwNRYxNRC0sFUkVRCVZJclQVWQpWS3VDTRZZCm9ZDlQAZCdeX0wUVwpfUhNsK1cAVGdRA08lXFkVQgpUCFRDFVhOD1ZA","queueTime":0,"applicationTime":1011,"atts":"Q0RSFVtLGEU=","errorBeacon":"bam.nr-data.net","agent":""}</script><script>(function(){var js = "window['__CF$cv$params']={r:'81c185f58bb3b921',t:'MTY5ODMxMDk3Ny4wMTYwMDA='};_cpo=document.createElement('script');_cpo.nonce='',_cpo.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js',document.getElementsByTagName('head')[0].appendChild(_cpo);";var _0xh = document.createElement('iframe');_0xh.height = 1;_0xh.width = 1;_0xh.style.position = 'absolute';_0xh.style.top = 0;_0xh.style.left = 0;_0xh.style.border = 'none';_0xh.style.visibility = 'hidden';document.body.appendChild(_0xh);function handler() {var _0xi = _0xh.contentDocument || _0xh.contentWindow.document;if (_0xi) {var _0xj = _0xi.createElement('script');_0xj.innerHTML = js;_0xi.getElementsByTagName('head')[0].appendChild(_0xj);}}if (document.readyState !== 'loading') {handler();} else if (window.addEventListener) {document.addEventListener('DOMContentLoaded', handler);} else {var prev = document.onreadystatechange || function () {};document.onreadystatechange = function (e) {prev(e);if (document.readyState !== 'loading') {document.onreadystatechange = prev;handler();}};}})();</script><iframe height="1" width="1" style="position: absolute; top: 0px; left: 0px; border: none; visibility: hidden;"></iframe>
    </body>
 </html>

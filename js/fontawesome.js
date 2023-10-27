@@ -2,6 +2,21 @@
  * Font Awesome Free 5.13.1 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
  */
+
+// OWL carousel js starts here
+$(function() {
+    // Owl Carousel
+    var owl = $(".owl-carousel");
+    owl.owlCarousel({
+      items: 3,
+      margin: 10,
+      loop: true,
+      nav: true
+    });
+  });
+  
+// OWL carousel js ends here
+
 ! function() {
     "use strict";
 
