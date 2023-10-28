@@ -18457,7 +18457,7 @@ footer .menu--social .navbar-nav svg:not(.fa-instagram) path{
     }
 }
 .region-footer>div:nth-child(1).region-footer__nav-group ul.navbar-nav .nav-link,.region-footer>div:nth-child(1).region-footer__nav-group ul.navbar-nav .media-library-view--widget .view-header a,.media-library-view--widget .view-header .region-footer>div:nth-child(1).region-footer__nav-group ul.navbar-nav a,.region-footer>div:nth-child(2).region-footer__nav-group ul.navbar-nav .nav-link,.region-footer>div:nth-child(2).region-footer__nav-group ul.navbar-nav .media-library-view--widget .view-header a,.media-library-view--widget .view-header .region-footer>div:nth-child(2).region-footer__nav-group ul.navbar-nav a{
-    padding:.21875rem 0
+    padding: 1.2185rem 0
 }
 .region-footer>div:nth-child(4){
     padding-top:2.5rem;
